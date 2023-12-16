@@ -10,3 +10,7 @@ const digitMultiply = (digits) => {
 const resultDigits = digitMultiply(num.toString());
 
 console.log(resultDigits);
+
+const grade = resultDigits** 3;
+
+console.log(grade.toString().substring(0, 2));
